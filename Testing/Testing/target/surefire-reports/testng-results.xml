@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-20T12:09:45 GMT-06:00" name="Suite" finished-at="2023-11-20T12:10:28 GMT-06:00" duration-ms="43079">
+    <groups>
+    </groups>
+    <test started-at="2023-11-20T12:09:45 GMT-06:00" name="Test" finished-at="2023-11-20T12:10:28 GMT-06:00" duration-ms="43079">
+      <class name="Testscriptes.TC_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:45 GMT-06:00" name="setup" finished-at="2023-11-20T12:09:46 GMT-06:00" duration-ms="1802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3000/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validUserNameAndPassword()[pri:0, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:46 GMT-06:00" name="validUserNameAndPassword" finished-at="2023-11-20T12:09:49 GMT-06:00" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserNameAndPassword -->
+        <test-method signature="invalidUserNameAndPassword()[pri:1, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:49 GMT-06:00" name="invalidUserNameAndPassword" finished-at="2023-11-20T12:09:51 GMT-06:00" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNameAndPassword -->
+        <test-method signature="validUserNameAndInvalidPassword()[pri:2, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:51 GMT-06:00" name="validUserNameAndInvalidPassword" finished-at="2023-11-20T12:09:53 GMT-06:00" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserNameAndInvalidPassword -->
+        <test-method signature="invalidUserNameAndValidPassword()[pri:3, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:53 GMT-06:00" name="invalidUserNameAndValidPassword" finished-at="2023-11-20T12:09:55 GMT-06:00" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testscriptes.TC_Login@6e0dec4a]" started-at="2023-11-20T12:09:55 GMT-06:00" name="tearDown" finished-at="2023-11-20T12:09:55 GMT-06:00" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testscriptes.TC_Login -->
+      <class name="Testscriptes.TC_User">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:09:55 GMT-06:00" name="setup" finished-at="2023-11-20T12:09:57 GMT-06:00" duration-ms="1457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3000/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLocationId()[pri:0, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:09:57 GMT-06:00" name="validLocationId" finished-at="2023-11-20T12:10:00 GMT-06:00" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLocationId -->
+        <test-method signature="invalidLocationId()[pri:1, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:00 GMT-06:00" name="invalidLocationId" finished-at="2023-11-20T12:10:01 GMT-06:00" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLocationId -->
+        <test-method signature="invalidLocationIdAndInvalidMaterialID()[pri:2, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:01 GMT-06:00" name="invalidLocationIdAndInvalidMaterialID" finished-at="2023-11-20T12:10:02 GMT-06:00" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLocationIdAndInvalidMaterialID -->
+        <test-method signature="validLocationIdAndMaterialId()[pri:3, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:02 GMT-06:00" name="validLocationIdAndMaterialId" finished-at="2023-11-20T12:10:03 GMT-06:00" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLocationIdAndMaterialId -->
+        <test-method signature="order()[pri:4, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:03 GMT-06:00" name="order" finished-at="2023-11-20T12:10:10 GMT-06:00" duration-ms="6829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+        <test-method signature="cancel()[pri:5, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:10 GMT-06:00" name="cancel" finished-at="2023-11-20T12:10:16 GMT-06:00" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testscriptes.TC_User@20d28811]" started-at="2023-11-20T12:10:16 GMT-06:00" name="tearDown" finished-at="2023-11-20T12:10:16 GMT-06:00" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testscriptes.TC_User -->
+      <class name="Testscriptes.TC_Admin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:16 GMT-06:00" name="setup" finished-at="2023-11-20T12:10:18 GMT-06:00" duration-ms="1347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3000/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLocationId()[pri:0, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:18 GMT-06:00" name="validLocationId" finished-at="2023-11-20T12:10:21 GMT-06:00" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLocationId -->
+        <test-method signature="invalidLocationId()[pri:1, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:21 GMT-06:00" name="invalidLocationId" finished-at="2023-11-20T12:10:22 GMT-06:00" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLocationId -->
+        <test-method signature="invalidLocationIdAndInvalidMaterialID()[pri:2, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:22 GMT-06:00" name="invalidLocationIdAndInvalidMaterialID" finished-at="2023-11-20T12:10:23 GMT-06:00" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLocationIdAndInvalidMaterialID -->
+        <test-method signature="validLocationIdAndMaterialId()[pri:3, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:23 GMT-06:00" name="validLocationIdAndMaterialId" finished-at="2023-11-20T12:10:24 GMT-06:00" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLocationIdAndMaterialId -->
+        <test-method signature="update()[pri:4, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:24 GMT-06:00" name="update" finished-at="2023-11-20T12:10:26 GMT-06:00" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method signature="addItems()[pri:5, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:26 GMT-06:00" name="addItems" finished-at="2023-11-20T12:10:28 GMT-06:00" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testscriptes.TC_Admin@3967e60c]" started-at="2023-11-20T12:10:28 GMT-06:00" name="tearDown" finished-at="2023-11-20T12:10:28 GMT-06:00" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testscriptes.TC_Admin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
