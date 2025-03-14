@@ -1,12 +1,10 @@
 ﻿Inventory Management System (IMS)
-Team 7
-Hemanth Sukumar Vangala 1002118951
-Sathwik Reddy Avula 1002120527
+
 Overview
 The Inventory Management System (IMS) is a full-stack application for managing inventory. It includes a backend developed in Spring Boot and a frontend built with React.js. This system provides various APIs and features for user registration, authentication, inventory management, and order processing.
 Features
 1. Login: Authenticate users and send a response.
-2. Registration: Users can register on the IMS portal, with options to be an admin or a regular user.
+2. Registration: Users can register on the IMS portal, with an option to be an admin or a regular user.
 3. Get Inventory: Users can retrieve inventory data using location ID and material ID.
 4. Update Inventory: Admins can add items to the inventory and update the available quantity.
 5. Order: Users can place orders for items.
